@@ -4,7 +4,9 @@ function enviarFormulario(){
     const enviar=document.getElementById("botonEnviar")
     enviar.addEventListener("submit", (evento)=>{
         evento.preventDefault();//corregir el html de onclick a onsubmit
-    
+
+//aqui puedo meter la funcion captura y new persona con el push
+
     let nombre=document.getElementById("capturaNombre").value;
     let email=document.getElementById("capturaEmail").value;
     let seleccion=document.getElementById("seleccionTema").value;
